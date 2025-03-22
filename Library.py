@@ -128,7 +128,7 @@ if __name__ == "__main__":
     lib = Library()
     
     # Adding Members
-    m1 = Member(1, "Alice", "alice@example.com")
+    m1 = Member(1, "Pream", "pream@example.com")
     lib.add_member(m1)
     
     # Adding Books
@@ -151,7 +151,7 @@ if __name__ == "__main__":
     print(lib.display_member_details(1))
     
     # Updating member information
-    print(lib.update_member(1, name="Alice Smith", contact="alice.smith@example.com"))
+    print(lib.update_member(1, name="Pream Smith", contact="Pream.smith@example.com"))
     print(lib.display_member_details(1))
     
     # Searching for a book
